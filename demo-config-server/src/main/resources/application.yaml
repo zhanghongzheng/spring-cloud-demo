@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zhanghongzheng/demo-spring-config-repo
+server:
+  port: 20000
+
